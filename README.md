@@ -1,3 +1,3 @@
 # sghoolassistant
 
-Antigo projeto de quando eu estava aprendendo python no curso em video :)
+Projeto para informar e armazernar horarios e/ou compromissos escolars(ex. provas)
