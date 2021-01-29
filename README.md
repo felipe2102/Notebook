@@ -29,4 +29,5 @@ Baixe diretamente do github com:
  -PySimpleGUI
  (Caso seja instalado o setup, todas as dependências serão instaladas automaticamentes.)
 
-#Espero que tenha gostado!
+
+# Espero que tenha gostado!
