@@ -15,10 +15,8 @@
   - Salva suas provas no banco de dados(EM BREVE NA VERSÃO 8.0)
  
 # Download
-Baixe diretamente do github com:
- - git clone https://github.com/Felipe2102/Assistente-Escolar.git
- - Pasta ZIP https://github.com/Felipe2102/Assistente-Escolar/archive/master.zip
- - Setup: https://github.com/Felipe2102/Assistente-Escolar/releases/
+Baixe diretamente do github:
+ - Versão mais recente: https://github.com/Felipe2102/Assistente-Escolar/releases/
 
 # Uso
  - Instale o programa pelo setup (SetupAssistente.exe)
