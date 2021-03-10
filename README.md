@@ -12,7 +12,6 @@
 
 # Características
   - Informa a aula com base no dia do computador.
-  - Salva suas provas no banco de dados(EM BREVE NA VERSÃO 8.0)
  
 # Download
 Baixe diretamente do github:
