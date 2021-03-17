@@ -15,16 +15,14 @@
  
 # Download
 Baixe diretamente do github:
- - Versão mais recente: https://github.com/Felipe2102/Assistente-Escolar/releases/
+  - Versão mais recente: https://github.com/Felipe2102/Assistente-Escolar/releases/
 
 # Uso
  - Instale o programa pelo setup (SetupAssistente.exe)
  -Pelo código fonte: py Assistente.py no terminal ou cmd
 
-# Requerimentos caso seja usado o código fonte:
+# Requisitos:
  - Python3 
  -PySimpleGUI
- (Caso seja instalado o setup, todas as dependências serão instaladas automaticamentes.)
-
-
+ 
 # Espero que tenha gostado!
