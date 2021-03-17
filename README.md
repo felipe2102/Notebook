@@ -23,6 +23,6 @@ Baixe diretamente do github:
 
 # Requisitos:
  - Python3 
- -PySimpleGUI
+ - PySimpleGUI
  
 # Espero que tenha gostado!
