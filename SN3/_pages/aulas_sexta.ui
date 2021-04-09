@@ -14,7 +14,8 @@
    <string>CONFIGURAÇÃO DAS AULAS</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(28, 30, 35);</string>
+   <string notr="true">background-color: rgb(28, 30, 35);
+color: rgb(255, 255, 255);</string>
   </property>
   <widget class="QDialogButtonBox" name="buttonBox">
    <property name="geometry">
@@ -32,10 +33,10 @@
     <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
    </property>
   </widget>
-  <widget class="QPushButton" name="Button_return">
+  <widget class="QPushButton" name="Button_cancelar">
    <property name="geometry">
     <rect>
-     <x>100</x>
+     <x>90</x>
      <y>350</y>
      <width>101</width>
      <height>51</height>
@@ -65,7 +66,7 @@ font: 87 13pt &quot;Arial Black&quot;;
 color: rgb(94,141,222);</string>
    </property>
    <property name="text">
-    <string>Que aulas você tem na terça?</string>
+    <string>Que aulas você tem na sexta?</string>
    </property>
   </widget>
   <widget class="QSplitter" name="splitter">
@@ -80,7 +81,7 @@ color: rgb(94,141,222);</string>
    <property name="orientation">
     <enum>Qt::Vertical</enum>
    </property>
-   <widget class="QLineEdit" name="lineEdit_firstlesson">
+   <widget class="QLineEdit" name="lineEdit_1aula">
     <property name="styleSheet">
      <string notr="true">background-color: rgb(49,54,65);
 font: 87 10pt &quot;Arial Black&quot;;</string>
@@ -92,7 +93,7 @@ font: 87 10pt &quot;Arial Black&quot;;</string>
      <string>1° AULA</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_secondlesson">
+   <widget class="QLineEdit" name="lineEdit_2aula">
     <property name="styleSheet">
      <string notr="true">background-color: rgb(49,54,65);
 font: 87 10pt &quot;Arial Black&quot;;</string>
@@ -101,7 +102,7 @@ font: 87 10pt &quot;Arial Black&quot;;</string>
      <string>2° AULA</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_3lesson">
+   <widget class="QLineEdit" name="lineEdit_3aula">
     <property name="styleSheet">
      <string notr="true">background-color: rgb(49,54,65);
 font: 87 10pt &quot;Arial Black&quot;;</string>
@@ -110,7 +111,7 @@ font: 87 10pt &quot;Arial Black&quot;;</string>
      <string>3° AULA</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_fourlesson">
+   <widget class="QLineEdit" name="lineEdit_4aula">
     <property name="styleSheet">
      <string notr="true">background-color: rgb(49,54,65);
 font: 87 10pt &quot;Arial Black&quot;;</string>
@@ -119,7 +120,7 @@ font: 87 10pt &quot;Arial Black&quot;;</string>
      <string>4° AULA</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_fivelesson">
+   <widget class="QLineEdit" name="lineEdit_5aula">
     <property name="styleSheet">
      <string notr="true">background-color: rgb(49,54,65);
 font: 87 10pt &quot;Arial Black&quot;;</string>
@@ -128,7 +129,7 @@ font: 87 10pt &quot;Arial Black&quot;;</string>
      <string>5° AULA</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_sixlesson">
+   <widget class="QLineEdit" name="lineEdit_6aula">
     <property name="styleSheet">
      <string notr="true">background-color: rgb(49,54,65);
 font: 87 10pt &quot;Arial Black&quot;;</string>

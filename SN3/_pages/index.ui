@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>conf</class>
- <widget class="QDialog" name="conf">
+ <class>dialog</class>
+ <widget class="QDialog" name="dialog">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
     <width>500</width>
-    <height>424</height>
+    <height>408</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>CONFIGURAÇÕES</string>
+   <string>Página inicial</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(28, 30, 35);</string>
+   <string notr="true">background-color: rgb(15, 15, 15);
+color: rgb(255, 255, 255);</string>
   </property>
   <widget class="QDialogButtonBox" name="buttonBox">
    <property name="geometry">
@@ -32,93 +33,129 @@
     <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
    </property>
   </widget>
-  <widget class="QPushButton" name="Button_return">
+  <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>190</x>
-     <y>350</y>
+     <x>60</x>
+     <y>0</y>
+     <width>351</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(49,54,65);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>0</y>
+     <width>291</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(49,54,65);
+color: rgb(94,141,255);
+font: 87 20pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Assistente Escolar</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>30</y>
+     <width>51</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(49,54,65);
+color: rgb(94,141,222);
+font: 87 12pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>V 8.0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Button_aulas">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>250</y>
      <width>101</width>
      <height>51</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(49,54,65);
-font: 87 10pt &quot;Arial Black&quot;;
-color: rgb(94,141,222);</string>
+    <string notr="true">background-color: rgb(39,44,55);
+color: rgb(94,141,222);
+font: 87 10pt &quot;Arial Black&quot;;</string>
    </property>
    <property name="text">
-    <string>VOLTAR</string>
+    <string>AULAS</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="Button_redconf">
+  <widget class="QPushButton" name="Button_agenda">
    <property name="geometry">
     <rect>
-     <x>120</x>
-     <y>120</y>
-     <width>251</width>
-     <height>31</height>
+     <x>260</x>
+     <y>250</y>
+     <width>101</width>
+     <height>51</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(49,54,65);
-font: 87 10pt &quot;Arial Black&quot;;
-color: rgb(94,141,222);</string>
+    <string notr="true">background-color: rgb(39,44,55);
+color: rgb(94,141,222);
+font: 87 10pt &quot;Arial Black&quot;;</string>
    </property>
    <property name="text">
-    <string>redefinir todas as configurações?</string>
+    <string>AGENDA</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="Button_progfolder">
+  <widget class="QPushButton" name="Button_sair">
    <property name="geometry">
     <rect>
-     <x>120</x>
-     <y>156</y>
-     <width>251</width>
-     <height>31</height>
+     <x>260</x>
+     <y>320</y>
+     <width>101</width>
+     <height>51</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(49,54,65);
-font: 87 10pt &quot;Arial Black&quot;;
-color: rgb(94,141,222);</string>
+    <string notr="true">background-color: rgb(39,44,55);
+color: rgb(94,141,222);
+font: 87 10pt &quot;Arial Black&quot;;</string>
    </property>
    <property name="text">
-    <string>abrir pasta do programa?</string>
+    <string>SAIR</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="Button_redaula">
+  <widget class="QPushButton" name="Button_config">
    <property name="geometry">
     <rect>
-     <x>120</x>
-     <y>190</y>
-     <width>251</width>
-     <height>31</height>
+     <x>130</x>
+     <y>320</y>
+     <width>101</width>
+     <height>51</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(49,54,65);
-font: 87 10pt &quot;Arial Black&quot;;
-color: rgb(94,141,222);</string>
+    <string notr="true">color: rgb(94,141,222);
+background-color: rgb(39,44,55);
+font: 87 10pt &quot;Arial Black&quot;;</string>
    </property>
    <property name="text">
-    <string>redefinir as aulas?</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label">
-   <property name="geometry">
-    <rect>
-     <x>140</x>
-     <y>40</y>
-     <width>211</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">font: 87 15pt &quot;Arial Black&quot;;
-color: rgb(94,141,222);</string>
-   </property>
-   <property name="text">
-    <string>CONFIGURAÇÕES</string>
+    <string>CONFIG</string>
    </property>
   </widget>
  </widget>
@@ -127,7 +164,7 @@ color: rgb(94,141,222);</string>
   <connection>
    <sender>buttonBox</sender>
    <signal>accepted()</signal>
-   <receiver>conf</receiver>
+   <receiver>dialog</receiver>
    <slot>accept()</slot>
    <hints>
     <hint type="sourcelabel">
@@ -143,7 +180,7 @@ color: rgb(94,141,222);</string>
   <connection>
    <sender>buttonBox</sender>
    <signal>rejected()</signal>
-   <receiver>conf</receiver>
+   <receiver>dialog</receiver>
    <slot>reject()</slot>
    <hints>
     <hint type="sourcelabel">

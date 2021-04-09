@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>Dialog</class>
- <widget class="QDialog" name="Dialog">
+ <class>dialog</class>
+ <widget class="QDialog" name="dialog">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -11,10 +11,10 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>Página inicial</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(28, 30, 35);
+   <string notr="true">background-color: rgb(15, 15, 15);
 color: rgb(255, 255, 255);</string>
   </property>
   <widget class="QDialogButtonBox" name="buttonBox">
@@ -43,7 +43,8 @@ color: rgb(255, 255, 255);</string>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(95, 95, 95);</string>
+    <string notr="true">background-color: rgb(49,54,65);
+</string>
    </property>
    <property name="text">
     <string/>
@@ -59,7 +60,7 @@ color: rgb(255, 255, 255);</string>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(95, 95, 95);
+    <string notr="true">background-color: rgb(49,54,65);
 color: rgb(94,141,255);
 font: 87 20pt &quot;Arial Black&quot;;</string>
    </property>
@@ -77,7 +78,7 @@ font: 87 20pt &quot;Arial Black&quot;;</string>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(95, 95, 95);
+    <string notr="true">background-color: rgb(49,54,65);
 color: rgb(94,141,222);
 font: 87 12pt &quot;Arial Black&quot;;</string>
    </property>
@@ -88,14 +89,14 @@ font: 87 12pt &quot;Arial Black&quot;;</string>
   <widget class="QPushButton" name="Button_aulas">
    <property name="geometry">
     <rect>
-     <x>50</x>
-     <y>300</y>
+     <x>130</x>
+     <y>250</y>
      <width>101</width>
      <height>51</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(49,54,65);
+    <string notr="true">background-color: rgb(39,44,55);
 color: rgb(94,141,222);
 font: 87 10pt &quot;Arial Black&quot;;</string>
    </property>
@@ -103,35 +104,35 @@ font: 87 10pt &quot;Arial Black&quot;;</string>
     <string>AULAS</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="Button_comp">
+  <widget class="QPushButton" name="Button_agenda">
    <property name="geometry">
     <rect>
-     <x>190</x>
-     <y>300</y>
+     <x>260</x>
+     <y>250</y>
      <width>101</width>
      <height>51</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(49,54,65);
+    <string notr="true">background-color: rgb(39,44,55);
 color: rgb(94,141,222);
-font: 87 7pt &quot;Arial Black&quot;;</string>
+font: 87 10pt &quot;Arial Black&quot;;</string>
    </property>
    <property name="text">
-    <string>COMPROMISSOS</string>
+    <string>AGENDA</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="Button_exit">
+  <widget class="QPushButton" name="Button_sair">
    <property name="geometry">
     <rect>
-     <x>330</x>
-     <y>300</y>
+     <x>260</x>
+     <y>320</y>
      <width>101</width>
      <height>51</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(49,54,65);
+    <string notr="true">background-color: rgb(39,44,55);
 color: rgb(94,141,222);
 font: 87 10pt &quot;Arial Black&quot;;</string>
    </property>
@@ -139,18 +140,19 @@ font: 87 10pt &quot;Arial Black&quot;;</string>
     <string>SAIR</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="Button_conf">
+  <widget class="QPushButton" name="Button_config">
    <property name="geometry">
     <rect>
-     <x>420</x>
-     <y>10</y>
-     <width>81</width>
-     <height>31</height>
+     <x>130</x>
+     <y>320</y>
+     <width>101</width>
+     <height>51</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(49,54,65);
-color: rgb(94,141,222);</string>
+    <string notr="true">color: rgb(94,141,222);
+background-color: rgb(39,44,55);
+font: 87 10pt &quot;Arial Black&quot;;</string>
    </property>
    <property name="text">
     <string>CONFIG</string>
@@ -162,7 +164,7 @@ color: rgb(94,141,222);</string>
   <connection>
    <sender>buttonBox</sender>
    <signal>accepted()</signal>
-   <receiver>Dialog</receiver>
+   <receiver>dialog</receiver>
    <slot>accept()</slot>
    <hints>
     <hint type="sourcelabel">
@@ -178,7 +180,7 @@ color: rgb(94,141,222);</string>
   <connection>
    <sender>buttonBox</sender>
    <signal>rejected()</signal>
-   <receiver>Dialog</receiver>
+   <receiver>dialog</receiver>
    <slot>reject()</slot>
    <hints>
     <hint type="sourcelabel">

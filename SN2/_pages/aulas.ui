@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>COMPROMISSOS</class>
- <widget class="QDialog" name="COMPROMISSOS">
+ <class>AULAS</class>
+ <widget class="QDialog" name="AULAS">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -11,10 +11,10 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>COMPROMISSOS</string>
+   <string>AULAS</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(28, 30, 35);</string>
+   <string notr="true">background-color: rgb(15, 15, 15);</string>
   </property>
   <widget class="QDialogButtonBox" name="buttonBox">
    <property name="geometry">
@@ -32,86 +32,50 @@
     <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
    </property>
   </widget>
-  <widget class="QPushButton" name="Button_del">
+  <widget class="QPushButton" name="Button_reconfigurar">
    <property name="geometry">
     <rect>
-     <x>200</x>
-     <y>350</y>
-     <width>101</width>
+     <x>330</x>
+     <y>340</y>
+     <width>111</width>
      <height>51</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(49,54,65);
-font: 87 10pt &quot;Arial Black&quot;;
-color: rgb(170, 0, 0)</string>
+    <string notr="true">background-color: rgb(39,44,55);
+font: 87 8pt &quot;Arial Black&quot;;
+color: rgb(94,141,235);</string>
    </property>
    <property name="text">
-    <string>DELETAR</string>
+    <string>RECONFIGURAR</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="Button_return">
+  <widget class="QPushButton" name="Button_voltar">
    <property name="geometry">
     <rect>
-     <x>320</x>
-     <y>350</y>
+     <x>80</x>
+     <y>340</y>
      <width>101</width>
      <height>51</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(49,54,65);
+    <string notr="true">background-color: rgb(39,44,55);
 font: 87 10pt &quot;Arial Black&quot;;
-color: rgb(94,141,222);</string>
+color: rgb(94,141,235);</string>
    </property>
    <property name="text">
     <string>VOLTAR</string>
    </property>
   </widget>
-  <widget class="QListView" name="lista">
+  <widget class="QListView" name="listView">
    <property name="geometry">
     <rect>
      <x>70</x>
-     <y>10</y>
-     <width>361</width>
-     <height>261</height>
+     <y>20</y>
+     <width>381</width>
+     <height>301</height>
     </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">font: 87 11pt &quot;Arial Black&quot;;
-background-color: rgb(238, 238, 238);</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="Button_add">
-   <property name="geometry">
-    <rect>
-     <x>80</x>
-     <y>350</y>
-     <width>101</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background-color: rgb(49,54,65);
-font: 87 10pt &quot;Arial Black&quot;;
-color: rgb(0, 170, 0);</string>
-   </property>
-   <property name="text">
-    <string>ADICIONAR</string>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit">
-   <property name="geometry">
-    <rect>
-     <x>100</x>
-     <y>290</y>
-     <width>311</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background-color: rgb(49,54,65);
-font: 87 10pt &quot;Arial Black&quot;;</string>
    </property>
   </widget>
  </widget>
@@ -120,7 +84,7 @@ font: 87 10pt &quot;Arial Black&quot;;</string>
   <connection>
    <sender>buttonBox</sender>
    <signal>accepted()</signal>
-   <receiver>COMPROMISSOS</receiver>
+   <receiver>AULAS</receiver>
    <slot>accept()</slot>
    <hints>
     <hint type="sourcelabel">
@@ -136,7 +100,7 @@ font: 87 10pt &quot;Arial Black&quot;;</string>
   <connection>
    <sender>buttonBox</sender>
    <signal>rejected()</signal>
-   <receiver>COMPROMISSOS</receiver>
+   <receiver>AULAS</receiver>
    <slot>reject()</slot>
    <hints>
     <hint type="sourcelabel">
