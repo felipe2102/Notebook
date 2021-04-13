@@ -2,7 +2,7 @@
 import os
 import DataBase as db
 from PyQt5 import uic, QtWidgets
-from PyQt5.QtWidgets import QMessageBox, QListWidget
+from PyQt5.QtWidgets import *
 
 # Faz o login
 def login():
@@ -133,13 +133,19 @@ def config_ends():
 # Recebe os dados de compromissos do banco de dados
 def agendaSQLite():
 	c = vcon.cursor()
-	tablerow = 0
-	for row in c.execute("SELECT * FROM tb_compromissos LIMIT 20"):
-		agenda.tableWidget.setItem(tablerow, 0, QtWidgets.QTableWidgetItem(row[0]))
-		agenda.tableWidget.setItem(tablerow, 1, QtWidgets.QTableWidgetItem(row[1]))
-		agenda.tableWidget.setItem(tablerow, 2, QtWidgets.QTableWidgetItem(row[2]))
+	c.execute("SELECT * FROM tb_compromissos LIMIT 20")
+	data = c.fetchall()
+	agenda.tableWidget.setColumnWidth(0,200)
+	agenda.tableWidget.setColumnWidth(1,400)
+	agenda.tableWidget.setColumnWidth(2,90)
 
-		tablerow+=1
+	for row in data:
+		inx = data.index(row)
+		agenda.tableWidget.insertRow(inx)
+		# add more if there is more columns in the database.
+		agenda.tableWidget.setItem(inx, 0, QTableWidgetItem(row[0]))
+		agenda.tableWidget.setItem(inx, 1, QTableWidgetItem(row[1]))
+		agenda.tableWidget.setItem(inx, 2, QTableWidgetItem(row[2]))
 
 # Deleta um compromisso do banco de dados
 def deletarCompromisso():

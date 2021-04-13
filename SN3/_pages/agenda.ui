@@ -174,9 +174,9 @@ background-color: rgb(15, 15, 15);</string>
   <widget class="QTableWidget" name="tableWidget">
    <property name="geometry">
     <rect>
-     <x>90</x>
-     <y>30</y>
-     <width>301</width>
+     <x>20</x>
+     <y>20</y>
+     <width>461</width>
      <height>271</height>
     </rect>
    </property>
@@ -184,6 +184,9 @@ background-color: rgb(15, 15, 15);</string>
     <string notr="true">background-color: rgb(255, 255, 255);
 color: rgb(0, 0, 0);
 font: 87 8pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="sizeAdjustPolicy">
+    <enum>QAbstractScrollArea::AdjustToContents</enum>
    </property>
    <column>
     <property name="text">
