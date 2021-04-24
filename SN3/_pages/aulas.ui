@@ -44,7 +44,7 @@
    <property name="styleSheet">
     <string notr="true">background-color: rgb(39,44,55);
 font: 87 8pt &quot;Arial Black&quot;;
-color: rgb(94,141,235);</string>
+color: rgb(0,0,245);</string>
    </property>
    <property name="text">
     <string>RECONFIGURAR</string>
@@ -53,7 +53,7 @@ color: rgb(94,141,235);</string>
   <widget class="QPushButton" name="Button_voltar">
    <property name="geometry">
     <rect>
-     <x>80</x>
+     <x>60</x>
      <y>340</y>
      <width>101</width>
      <height>51</height>
@@ -62,20 +62,74 @@ color: rgb(94,141,235);</string>
    <property name="styleSheet">
     <string notr="true">background-color: rgb(39,44,55);
 font: 87 10pt &quot;Arial Black&quot;;
-color: rgb(94,141,235);</string>
+color: rgb(0,0,245);</string>
    </property>
    <property name="text">
     <string>VOLTAR</string>
    </property>
   </widget>
-  <widget class="QListView" name="listView">
+  <widget class="QTableWidget" name="tableWidget">
    <property name="geometry">
     <rect>
-     <x>70</x>
-     <y>20</y>
+     <x>60</x>
+     <y>40</y>
      <width>381</width>
-     <height>301</height>
+     <height>281</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 87 8pt &quot;Arial Black&quot;;</string>
+   </property>
+   <column>
+    <property name="text">
+     <string>Matéria</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Dia</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Horário</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="Button_voltar_2">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>0</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(39,44,55);
+font: 87 9pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>RECARREGAR</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>10</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+font: 87 10pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Suas aulas:</string>
    </property>
   </widget>
  </widget>

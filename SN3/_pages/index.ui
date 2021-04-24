@@ -83,7 +83,7 @@ color: rgb(94,141,222);
 font: 87 12pt &quot;Arial Black&quot;;</string>
    </property>
    <property name="text">
-    <string>V 8.0</string>
+    <string>SN3</string>
    </property>
   </widget>
   <widget class="QPushButton" name="Button_aulas">
@@ -97,7 +97,7 @@ font: 87 12pt &quot;Arial Black&quot;;</string>
    </property>
    <property name="styleSheet">
     <string notr="true">background-color: rgb(39,44,55);
-color: rgb(94,141,222);
+color: rgb(0,0,245);
 font: 87 10pt &quot;Arial Black&quot;;</string>
    </property>
    <property name="text">
@@ -115,7 +115,7 @@ font: 87 10pt &quot;Arial Black&quot;;</string>
    </property>
    <property name="styleSheet">
     <string notr="true">background-color: rgb(39,44,55);
-color: rgb(94,141,222);
+color: rgb(0,0,245);
 font: 87 10pt &quot;Arial Black&quot;;</string>
    </property>
    <property name="text">
@@ -133,7 +133,7 @@ font: 87 10pt &quot;Arial Black&quot;;</string>
    </property>
    <property name="styleSheet">
     <string notr="true">background-color: rgb(39,44,55);
-color: rgb(94,141,222);
+color: rgb(0,0,245);
 font: 87 10pt &quot;Arial Black&quot;;</string>
    </property>
    <property name="text">
@@ -150,7 +150,7 @@ font: 87 10pt &quot;Arial Black&quot;;</string>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">color: rgb(94,141,222);
+    <string notr="true">color: rgb(0,0,245);
 background-color: rgb(39,44,55);
 font: 87 10pt &quot;Arial Black&quot;;</string>
    </property>

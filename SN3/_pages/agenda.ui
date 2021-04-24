@@ -37,15 +37,15 @@ color: rgb(255, 255, 255);</string>
    <property name="geometry">
     <rect>
      <x>140</x>
-     <y>350</y>
-     <width>101</width>
+     <y>300</y>
+     <width>91</width>
      <height>51</height>
     </rect>
    </property>
    <property name="styleSheet">
     <string notr="true">background-color: rgb(39,44,55);
 font: 87 10pt &quot;Arial Black&quot;;
-color: rgb(170, 0, 0)</string>
+color: rgb(255, 0, 4);</string>
    </property>
    <property name="text">
     <string>DELETAR</string>
@@ -54,16 +54,16 @@ color: rgb(170, 0, 0)</string>
   <widget class="QPushButton" name="Button_voltar">
    <property name="geometry">
     <rect>
-     <x>380</x>
-     <y>350</y>
-     <width>101</width>
+     <x>200</x>
+     <y>370</y>
+     <width>91</width>
      <height>51</height>
     </rect>
    </property>
    <property name="styleSheet">
     <string notr="true">background-color: rgb(39,44,55);
 font: 87 10pt &quot;Arial Black&quot;;
-color: rgb(94,141,235);</string>
+color: rgb(0,0,245);</string>
    </property>
    <property name="text">
     <string>VOLTAR</string>
@@ -73,40 +73,26 @@ color: rgb(94,141,235);</string>
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>350</y>
-     <width>101</width>
+     <y>300</y>
+     <width>91</width>
      <height>51</height>
     </rect>
    </property>
    <property name="styleSheet">
     <string notr="true">background-color: rgb(39,44,55);
 font: 87 10pt &quot;Arial Black&quot;;
-color: rgb(0, 170, 0);</string>
+color: rgb(0, 255, 0);</string>
    </property>
    <property name="text">
     <string>ADICIONAR</string>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit">
-   <property name="geometry">
-    <rect>
-     <x>20</x>
-     <y>320</y>
-     <width>311</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background-color: rgb(39,44,55);
-font: 87 10pt &quot;Arial Black&quot;;</string>
    </property>
   </widget>
   <widget class="QPushButton" name="Button_editar">
    <property name="geometry">
     <rect>
      <x>260</x>
-     <y>350</y>
-     <width>101</width>
+     <y>300</y>
+     <width>91</width>
      <height>51</height>
     </rect>
    </property>
@@ -119,30 +105,13 @@ color: rgb(255, 255, 0);</string>
     <string>EDITAR</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label">
-   <property name="geometry">
-    <rect>
-     <x>50</x>
-     <y>300</y>
-     <width>251</width>
-     <height>16</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">font: 87 8pt &quot;Arial Black&quot;;
-background-color: rgb(15, 15, 15);</string>
-   </property>
-   <property name="text">
-    <string>Consulte por um compromisso especifico:</string>
-   </property>
-  </widget>
   <widget class="QPushButton" name="Button_Buscar">
    <property name="geometry">
     <rect>
-     <x>340</x>
-     <y>310</y>
+     <x>380</x>
+     <y>300</y>
      <width>91</width>
-     <height>31</height>
+     <height>51</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -157,7 +126,7 @@ color: rgb(255, 255, 255);</string>
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>80</x>
+     <x>40</x>
      <y>0</y>
      <width>161</width>
      <height>21</height>
@@ -175,9 +144,9 @@ background-color: rgb(15, 15, 15);</string>
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>20</y>
+     <y>30</y>
      <width>461</width>
-     <height>271</height>
+     <height>261</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -212,6 +181,24 @@ font: 87 8pt &quot;Arial Black&quot;;</string>
      <set>AlignJustify|AlignVCenter</set>
     </property>
    </column>
+  </widget>
+  <widget class="QPushButton" name="Button_reload">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>0</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(39,44,55);
+font: 87 8pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>RECARREGAR</string>
+   </property>
   </widget>
  </widget>
  <resources/>

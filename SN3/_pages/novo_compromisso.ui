@@ -51,136 +51,6 @@ color: rgb(94,141,235);</string>
     <string>VOLTAR</string>
    </property>
   </widget>
-  <widget class="QGroupBox" name="groupBox">
-   <property name="geometry">
-    <rect>
-     <x>20</x>
-     <y>10</y>
-     <width>311</width>
-     <height>221</height>
-    </rect>
-   </property>
-   <property name="title">
-    <string>Informações Basicas</string>
-   </property>
-   <widget class="QLineEdit" name="lineEdit">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>50</y>
-      <width>281</width>
-      <height>31</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>140</y>
-      <width>281</width>
-      <height>31</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>20</y>
-      <width>51</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">font: 87 10pt &quot;Arial Black&quot;;
-color: rgb(94,141,235);</string>
-    </property>
-    <property name="text">
-     <string>Título:</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_2">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>110</y>
-      <width>81</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">font: 87 10pt &quot;Arial Black&quot;;
-color: rgb(94,141,235);</string>
-    </property>
-    <property name="text">
-     <string>Descrição:</string>
-    </property>
-   </widget>
-  </widget>
-  <widget class="QGroupBox" name="groupBox_2">
-   <property name="geometry">
-    <rect>
-     <x>340</x>
-     <y>10</y>
-     <width>151</width>
-     <height>111</height>
-    </rect>
-   </property>
-   <property name="title">
-    <string>Tipo</string>
-   </property>
-   <widget class="QComboBox" name="comboBox">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>60</y>
-      <width>131</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(103, 103, 103);</string>
-    </property>
-    <item>
-     <property name="text">
-      <string/>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Prova</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Dever de casa</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Atividades extras</string>
-     </property>
-    </item>
-   </widget>
-   <widget class="QLabel" name="label_3">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>30</y>
-      <width>81</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">font: 87 10pt &quot;Arial Black&quot;;
-color: rgb(94,141,235);</string>
-    </property>
-    <property name="text">
-     <string>Tipo:</string>
-    </property>
-   </widget>
-  </widget>
   <widget class="QLabel" name="label_4">
    <property name="geometry">
     <rect>
@@ -231,6 +101,126 @@ color: rgb(94,141,235);</string>
    </property>
    <property name="text">
     <string>confirmar</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_title">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>60</y>
+     <width>281</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>40</y>
+     <width>51</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 10pt &quot;Arial Black&quot;;
+color: rgb(94,141,235);</string>
+   </property>
+   <property name="text">
+    <string>Título:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_description">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>170</y>
+     <width>281</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>140</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 10pt &quot;Arial Black&quot;;
+color: rgb(94,141,235);</string>
+   </property>
+   <property name="text">
+    <string>Descrição:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>151</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 9pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Informações basicas:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>120</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(103, 103, 103);</string>
+   </property>
+   <item>
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Prova</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Dever de casa</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Atividades extras</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>90</y>
+     <width>41</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 10pt &quot;Arial Black&quot;;
+color: rgb(94,141,235);</string>
+   </property>
+   <property name="text">
+    <string>Tipo:</string>
    </property>
   </widget>
  </widget>

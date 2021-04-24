@@ -35,7 +35,7 @@
   <widget class="QPushButton" name="Button_voltar">
    <property name="geometry">
     <rect>
-     <x>190</x>
+     <x>200</x>
      <y>350</y>
      <width>101</width>
      <height>51</height>
@@ -43,7 +43,7 @@
    </property>
    <property name="styleSheet">
     <string notr="true">background-color: rgb(39,44,55);
-color: rgb(94,141,222);
+color: rgb(0,0,245);
 font: 87 10pt &quot;Arial Black&quot;;</string>
    </property>
    <property name="text">
@@ -53,10 +53,10 @@ font: 87 10pt &quot;Arial Black&quot;;</string>
   <widget class="QPushButton" name="Button_redaula">
    <property name="geometry">
     <rect>
-     <x>130</x>
+     <x>100</x>
      <y>180</y>
-     <width>251</width>
-     <height>51</height>
+     <width>141</width>
+     <height>41</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -65,7 +65,7 @@ color: rgb(94,141,222);
 font: 87 10pt &quot;Arial Black&quot;;</string>
    </property>
    <property name="text">
-    <string>redefinir as aulas?</string>
+    <string>redefinir as aulas</string>
    </property>
   </widget>
   <widget class="QLabel" name="label">
@@ -119,6 +119,96 @@ font: 87 9pt &quot;Arial Black&quot;;</string>
    </property>
    <property name="text">
     <string>https://github.com/Felipe2102/Assistente-Escolar/issues/new</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Button_redaula_2">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>230</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(39,44,55);
+color: rgb(94,141,222);
+font: 87 10pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>PLACEHOLDER</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Button_redaula_3">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>290</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(39,44,55);
+color: rgb(94,141,222);
+font: 87 10pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>PLACEHOLDER</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Button_redaula_4">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>230</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(39,44,55);
+color: rgb(94,141,222);
+font: 87 10pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>PLACEHOLDER</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Button_redaula_5">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>180</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(39,44,55);
+color: rgb(94,141,222);
+font: 87 10pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>PLACEHOLDER</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Button_redaula_6">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>290</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(39,44,55);
+color: rgb(94,141,222);
+font: 87 10pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>PLACEHOLDER</string>
    </property>
   </widget>
  </widget>
