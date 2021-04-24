@@ -1,3 +1,10 @@
 
 *.txt
 *.pyc
+*.pyd
+*.dll
+*.manifest
+*.qm
+SN3/main/PyQt5/uic/widget-plugins/qscintilla.py
+SN3/main/PyQt5/uic/widget-plugins/qtwebkit.py
+SN3/main/PyQt5/uic/widget-plugins/qtwebenginewidgets.py
