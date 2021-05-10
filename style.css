@@ -1,0 +1,25 @@
+* {
+	font: Arial;
+}
+
+body {
+	background-color: #353535;
+}
+
+.container {
+	width: auto;
+	height: auto;
+	padding: 5px;
+	background-color: white;
+	margin: auto;
+	border-radius: 15px;
+	box-shadow: 5px 5px 10px #7d7d7d;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	color: black;
+}
